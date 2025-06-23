@@ -14,7 +14,7 @@ namespace AssignmentSolutions
             #endregion
 
             #region 2
-               string input = "123abc";
+            string input = "123abc";
             try
             {
                 int result = Convert.ToInt32(input);

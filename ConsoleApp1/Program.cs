@@ -55,7 +55,6 @@ namespace AssignmentSolutions
             int[] arr2 = arr1;
             arr2[0] = 100;
             Console.WriteLine("arr1[0] = " + arr1[0]);
-            Console.WriteLine();
             #endregion
 
 

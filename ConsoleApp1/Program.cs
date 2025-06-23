@@ -48,7 +48,6 @@ namespace AssignmentSolutions
             y = 20;
             Console.WriteLine("x = " + x);
             Console.WriteLine("y = " + y);
-            Console.WriteLine();
             #endregion
 
             #region 6

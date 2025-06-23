@@ -39,7 +39,6 @@ namespace AssignmentSolutions
             string text = "Hello World";
             string sub = text.Substring(6, 5);
             Console.WriteLine("Substring: " + sub);
-            Console.WriteLine();
             #endregion
 
 

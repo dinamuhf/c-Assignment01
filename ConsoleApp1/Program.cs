@@ -78,7 +78,7 @@ namespace AssignmentSolutions
             #region 9
             Console.WriteLine(13 / 2 + " " + 13 % 2);
             Console.WriteLine("Answer: 6 1");
-          
+
             #endregion
 
             #region 10
@@ -89,7 +89,6 @@ namespace AssignmentSolutions
             else
                 Console.WriteLine(--num + z-- + " " + --z);
             Console.WriteLine("Answer: 7 7");
-
             #endregion
         }
     }

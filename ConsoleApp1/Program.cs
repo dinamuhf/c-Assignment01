@@ -63,7 +63,7 @@ namespace AssignmentSolutions
             string second = "World";
             string combined = first + " " + second;
             Console.WriteLine("Combined: " + combined);
-            Console.WriteLine();
+           
             #endregion
 
             #region 8

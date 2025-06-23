@@ -71,7 +71,7 @@ namespace AssignmentSolutions
             d = Convert.ToInt32(!(30 < 20));
             Console.WriteLine("Value of d: " + d);
             Console.WriteLine("Answer: A value 1 will be assigned to d.");
-            Console.WriteLine();
+         
 
             #endregion
 

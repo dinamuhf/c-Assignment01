@@ -33,7 +33,6 @@ namespace AssignmentSolutions
             float b = 2.2f;
             float floatResult = a + b;
             Console.WriteLine("Result: " + floatResult);
-            Console.WriteLine();
             #endregion 
 
             #region 4

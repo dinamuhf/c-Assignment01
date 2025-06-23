@@ -10,11 +10,11 @@ namespace AssignmentSolutions
             Console.Write("Enter a number: ");
             int number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("You entered: " + number);
-            Console.WriteLine();
+            
             #endregion
 
             #region 2
-               string input = "123abc";
+            string input = "123abc";
             try
             {
                 int result = Convert.ToInt32(input);
@@ -33,14 +33,12 @@ namespace AssignmentSolutions
             float b = 2.2f;
             float floatResult = a + b;
             Console.WriteLine("Result: " + floatResult);
-            Console.WriteLine();
             #endregion 
 
             #region 4
             string text = "Hello World";
             string sub = text.Substring(6, 5);
             Console.WriteLine("Substring: " + sub);
-            Console.WriteLine();
             #endregion
 
 
@@ -50,7 +48,6 @@ namespace AssignmentSolutions
             y = 20;
             Console.WriteLine("x = " + x);
             Console.WriteLine("y = " + y);
-            Console.WriteLine();
             #endregion
 
             #region 6
@@ -58,7 +55,6 @@ namespace AssignmentSolutions
             int[] arr2 = arr1;
             arr2[0] = 100;
             Console.WriteLine("arr1[0] = " + arr1[0]);
-            Console.WriteLine();
             #endregion
 
 
@@ -67,7 +63,7 @@ namespace AssignmentSolutions
             string second = "World";
             string combined = first + " " + second;
             Console.WriteLine("Combined: " + combined);
-            Console.WriteLine();
+           
             #endregion
 
             #region 8
@@ -75,14 +71,14 @@ namespace AssignmentSolutions
             d = Convert.ToInt32(!(30 < 20));
             Console.WriteLine("Value of d: " + d);
             Console.WriteLine("Answer: A value 1 will be assigned to d.");
-            Console.WriteLine();
+         
 
             #endregion
 
             #region 9
             Console.WriteLine(13 / 2 + " " + 13 % 2);
             Console.WriteLine("Answer: 6 1");
-            Console.WriteLine();
+
             #endregion
 
             #region 10
@@ -93,7 +89,6 @@ namespace AssignmentSolutions
             else
                 Console.WriteLine(--num + z-- + " " + --z);
             Console.WriteLine("Answer: 7 7");
-
             #endregion
         }
     }
